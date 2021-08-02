@@ -28,27 +28,35 @@ const Main = () => {
       <div className='origin-features'>
         <div className='feature-assurance'>
           <img alt="seis" src={seis} />
+          <p>Get SEIS/EIS assurance</p>
         </div>
         <div className='feature-raise'>
           <img alt="raise" src={raise} />
+          <p>Raise before a round</p>
         </div>
         <div className='feature-funding'>
           <img alt="funding" src={funding} />
+          <p>Do a funding round</p>
         </div>
         <div className='feature-emi'>
           <img alt="policy" src={policy} />
+          <p>Create your EMI Scheme</p>
         </div>
         <div className='feature-topup'>
           <img alt="share" src={share} />
+          <p>Top up a round</p>
         </div>
         <div className='feature-cap'>
           <img alt="table" src={table} />
+          <p>Manage your Cap Tables</p>
         </div>
         <div className='feature-tax'>
           <img alt="compliance" src={compliance} />
+          <p>Claim R&D Tax Credits</p>
         </div>
         <div className='feature-contracts'>
           <img alt="team" src={team} />
+          <p>Create contracts</p>
         </div>
       </div>
     </div>

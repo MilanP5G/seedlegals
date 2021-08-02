@@ -82,12 +82,13 @@ body {
 .origin-features {
   width: 100%;
   margin-top: -250px;
-  height: 400px;
+  height: 420px;
   background: linear-gradient(to right, #f9f9f9, #eaeaea, #f9f9f9);
 }
 
 .feature-assurance {
   float: left;
+  margin-top: 10px;
   margin-left: 140px;
   background: #f9f9f9;
   width: 150px;
@@ -106,6 +107,7 @@ body {
 
 .feature-raise {
   float: left;
+  margin-top: 10px;
   margin-left: 50px;
   background: #f9f9f9;
   width: 150px;
@@ -124,6 +126,7 @@ body {
 
 .feature-funding {
   float: left;
+  margin-top: 10px;
   margin-left: 50px;
   background: #f9f9f9;
   width: 150px;
@@ -142,6 +145,7 @@ body {
 
 .feature-emi {
   float: left;
+  margin-top: 10px;
   margin-left: 50px;
   background: #f9f9f9;
   width: 150px;
@@ -161,7 +165,7 @@ body {
 .feature-topup {
   float: left;
   margin-top: 40px;
-  margin-left: 50px;
+  margin-left: 140px;
   background: #f9f9f9;
   width: 150px;
   height: 80px;
