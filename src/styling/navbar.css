@@ -14,12 +14,12 @@
   display: inline-block;
   width: 250px;
   float: left;
-  margin-top: 8px;
+  margin-top: 7px;
   margin-left: 10px;
 }
 
 .nav-routes {
-  margin: 0;
+  left: 20px;
   font-size: 0.9em;
   position: relative;
   top: 50%;
@@ -32,4 +32,20 @@
   color: #000646;
   margin-right: 20px;
   font-weight: 700;
+}
+
+.nav-phone img {
+  width: 12px;
+}
+
+.nav-phone {
+  float: right;
+  color: #6062ff;
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-right: 100px;
+  position: relative;
+  top: 30%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }

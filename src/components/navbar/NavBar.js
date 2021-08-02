@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import navLogo from '../../assets/seedlegals-logo.png';
+import phone from '../../assets/phoneo.png';
 import '../../styling/navbar.css';
 
 const NavBar = () => {
@@ -9,25 +10,29 @@ const NavBar = () => {
     <div className='nav-bar'>
       <div className='nav-logo'>
         <NavLink className='nav-seedlegal-logo' to='/'>
-          <img id='nav-logo' alt='Seed Legals' src={navLogo} />
+          <img alt='Seed Legals' src={navLogo} />
         </NavLink>
       </div>
       <div className='nav-routes'>
-        <NavLink className="nav-founders" to="/">
+        <NavLink className='nav-founders' to='/'>
           For Founders
         </NavLink>
-        <NavLink className="nav-investors" to="/">
+        <NavLink className='nav-investors' to='/'>
           For Investors
         </NavLink>
-        <NavLink className="nav-pricing" to="/">
+        <NavLink className='nav-pricing' to='/'>
           Pricing
         </NavLink>
-        <NavLink className="nav-resources" to="/">
+        <NavLink className='nav-resources' to='/'>
           Resources
         </NavLink>
-        <NavLink className="nav-company" to="/">
+        <NavLink className='nav-company' to='/'>
           Company
         </NavLink>
+      </div>
+      <div className='nav-phone'>
+       <img alt='Call' src={phone} />
+        2O 7947 9213
       </div>
     </div>
   )
