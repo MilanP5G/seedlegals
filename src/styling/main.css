@@ -1,3 +1,7 @@
+body {
+  background: #f9f9f9;
+}
+
 .origin-text img {
   display: block;
   margin-left: auto;
@@ -33,4 +37,44 @@
   margin-right: auto;
   text-align: center;
   width: 800px;
+}
+
+.origin-start {
+  position: relative;
+  color: white;
+  background-color: #6062ff;
+  height: 50px;
+  padding: 10px 10px;
+  width: 130px;
+  bottom: 400px;
+  left: 550px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  font-size: 0.9em;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: 3px 3px 8px #b1b1b1,
+             -3px -3px 8px #ffffff;
+  transition: 0.3s;
+}
+
+.origin-talk {
+  position: relative;
+  color: #6062ff;
+  background-color: white;
+  height: 50px;
+  padding: 10px 10px;
+  width: 200px;
+  bottom: 400px;
+  left: 560px;
+  cursor: pointer;
+  border-color: #6062ff;
+  border-radius: 30px;
+  font-size: 0.9em;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: 3px 3px 8px #b1b1b1,
+             -3px -3px 8px #ffffff;
+  transition: 0.3s;
 }

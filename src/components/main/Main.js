@@ -10,6 +10,12 @@ const Main = () => {
         <img alt='shapes' src={shapes} />
         <h1> <span>Start</span>, <span>raise</span> and <span>grow</span> faster with SeedLegals</h1>
         <p>The legals for growing your company. <b>Sorted.</b></p>
+        <button className="origin-start" type="submit">
+          Start Free
+        </button>
+        <button className="origin-talk" type="submit">
+          Talk to an expert
+        </button>
       </div>
     </div>
   )
