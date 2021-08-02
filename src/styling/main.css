@@ -23,3 +23,14 @@
   display: inline-block;
   line-height: 0.5;
 }
+
+.origin-text p {
+  position: relative;
+  color: #000646;
+  font-size: 1.4em;
+  bottom: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 800px;
+}
