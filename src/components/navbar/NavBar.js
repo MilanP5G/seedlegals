@@ -14,10 +14,10 @@ const NavBar = () => {
       </div>
       <div className='nav-routes'>
         <NavLink className="nav-founders" to="/">
-          Founders
+          For Founders
         </NavLink>
         <NavLink className="nav-investors" to="/">
-          Investors
+          For Investors
         </NavLink>
         <NavLink className="nav-pricing" to="/">
           Pricing

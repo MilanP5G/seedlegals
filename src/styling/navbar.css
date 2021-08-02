@@ -17,3 +17,19 @@
   margin-top: 8px;
   margin-left: 10px;
 }
+
+.nav-routes {
+  margin: 0;
+  font-size: 0.9em;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.nav-routes a {
+  text-decoration: none;
+  color: #000646;
+  margin-right: 20px;
+  font-weight: 700;
+}
