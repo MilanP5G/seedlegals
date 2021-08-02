@@ -12,6 +12,23 @@ const NavBar = () => {
           <img id='nav-logo' alt='Seed Legals' src={navLogo} />
         </NavLink>
       </div>
+      <div className='nav-routes'>
+        <NavLink className="nav-founders" to="/">
+          Founders
+        </NavLink>
+        <NavLink className="nav-investors" to="/">
+          Investors
+        </NavLink>
+        <NavLink className="nav-pricing" to="/">
+          Pricing
+        </NavLink>
+        <NavLink className="nav-resources" to="/">
+          Resources
+        </NavLink>
+        <NavLink className="nav-company" to="/">
+          Company
+        </NavLink>
+      </div>
     </div>
   )
 
