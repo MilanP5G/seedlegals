@@ -57,3 +57,20 @@
   margin-top: 19px;
   margin-right: 200px;
 }
+
+.nav-start {
+  float: right;
+  color: white;
+  background-color: #6062ff;
+  height: 50px;
+  padding: 10px 10px;
+  width: 130px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 0.9em;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: 3px 3px 8px #b1b1b1,
+             -3px -3px 8px #ffffff;
+  transition: 0.3s;
+}

@@ -30,6 +30,9 @@ const NavBar = () => {
           Company
         </NavLink>
       </div>
+      <button className="nav-start" type="submit">
+        Start Free
+      </button>
       <div className='nav-login'>
         Login
       </div>
@@ -37,9 +40,6 @@ const NavBar = () => {
         <img alt='Call' src={phone} />
         2O 7947 9213
       </div>
-      <button className="nav-start" type="submit">
-        Start Free
-      </button>
     </div>
   )
 
