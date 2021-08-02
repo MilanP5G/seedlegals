@@ -30,10 +30,16 @@ const NavBar = () => {
           Company
         </NavLink>
       </div>
+      <div className='nav-login'>
+        Login
+      </div>
       <div className='nav-phone'>
-       <img alt='Call' src={phone} />
+        <img alt='Call' src={phone} />
         2O 7947 9213
       </div>
+      <button className="nav-start" type="submit">
+        Start Free
+      </button>
     </div>
   )
 

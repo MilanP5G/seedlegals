@@ -43,9 +43,17 @@
   color: #6062ff;
   font-size: 1.1em;
   font-weight: 700;
-  margin-right: 100px;
+  height: 20px;
+  margin-right: 50px;
   position: relative;
   top: 30%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.nav-login {
+  float: right;
+  color: #000646;
+  margin-top: 19px;
+  margin-right: 200px;
 }
