@@ -15,7 +15,7 @@
   width: 250px;
   float: left;
   margin-top: 7px;
-  margin-left: 10px;
+  margin-left: 80px;
 }
 
 .nav-routes {
@@ -44,7 +44,7 @@
   font-size: 1.1em;
   font-weight: 700;
   height: 20px;
-  margin-right: 50px;
+  margin-right: 20px;
   position: relative;
   top: 30%;
   -ms-transform: translateY(-50%);
@@ -55,7 +55,7 @@
   float: right;
   color: #000646;
   margin-top: 19px;
-  margin-right: 200px;
+  margin-right: 20px;
 }
 
 .nav-start {
@@ -63,9 +63,12 @@
   color: white;
   background-color: #6062ff;
   height: 50px;
+  margin-top: 2px;
+  margin-right: 100px;
   padding: 10px 10px;
   width: 130px;
   cursor: pointer;
+  border: none;
   border-radius: 30px;
   font-size: 0.9em;
   font-weight: 700;
