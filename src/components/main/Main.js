@@ -17,6 +17,24 @@ const Main = () => {
           Talk to an expert
         </button>
       </div>
+      <div className='origin-features'>
+        <div className='feature-assurance'>
+        </div>
+        <div className='feature-raise'>
+        </div>
+        <div className='feature-funding'>
+        </div>
+        <div className='feature-emi'>
+        </div>
+        <div className='feature-topup'>
+        </div>
+        <div className='feature-cap'>
+        </div>
+        <div className='feature-tax'>
+        </div>
+        <div className='feature-contracts'>
+        </div>
+      </div>
     </div>
   )
 
