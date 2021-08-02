@@ -91,9 +91,9 @@ body {
   margin-top: 10px;
   margin-left: 140px;
   background: #f9f9f9;
-  width: 150px;
-  height: 80px;
-  padding: 50px;
+  width: 200px;
+  height: 130px;
+  padding: 25px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px #b1b1b1,
               -2px -2px 5px #ffffff;
@@ -101,8 +101,16 @@ body {
 
 .feature-assurance img {
   display: block;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.feature-assurance p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 700;
 }
 
 .feature-raise {
@@ -110,9 +118,9 @@ body {
   margin-top: 10px;
   margin-left: 50px;
   background: #f9f9f9;
-  width: 150px;
-  height: 80px;
-  padding: 50px;
+  width: 200px;
+  height: 130px;
+  padding: 25px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px #b1b1b1,
               -2px -2px 5px #ffffff;
@@ -124,14 +132,21 @@ body {
   margin-right: auto;
 }
 
+.feature-raise p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 700;
+}
+
 .feature-funding {
   float: left;
   margin-top: 10px;
   margin-left: 50px;
   background: #f9f9f9;
-  width: 150px;
-  height: 80px;
-  padding: 50px;
+  width: 200px;
+  height: 130px;
+  padding: 25px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px #b1b1b1,
               -2px -2px 5px #ffffff;
@@ -143,14 +158,21 @@ body {
   margin-right: auto;
 }
 
+.feature-funding p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 700;
+}
+
 .feature-emi {
   float: left;
   margin-top: 10px;
   margin-left: 50px;
   background: #f9f9f9;
-  width: 150px;
-  height: 80px;
-  padding: 50px;
+  width: 200px;
+  height: 130px;
+  padding: 25px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px #b1b1b1,
               -2px -2px 5px #ffffff;
@@ -162,14 +184,21 @@ body {
   margin-right: auto;
 }
 
+.feature-emi p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 700;
+}
+
 .feature-topup {
   float: left;
   margin-top: 40px;
   margin-left: 140px;
   background: #f9f9f9;
-  width: 150px;
-  height: 80px;
-  padding: 50px;
+  width: 200px;
+  height: 130px;
+  padding: 25px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px #b1b1b1,
               -2px -2px 5px #ffffff;
@@ -181,14 +210,21 @@ body {
   margin-right: auto;
 }
 
+.feature-topup p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 700;
+}
+
 .feature-cap {
   float: left;
   margin-top: 40px;
   margin-left: 50px;
   background: #f9f9f9;
-  width: 150px;
-  height: 80px;
-  padding: 50px;
+  width: 200px;
+  height: 130px;
+  padding: 25px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px #b1b1b1,
               -2px -2px 5px #ffffff;
@@ -200,14 +236,21 @@ body {
   margin-right: auto;
 }
 
+.feature-cap p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 700;
+}
+
 .feature-tax {
   float: left;
   margin-top: 40px;
   margin-left: 50px;
   background: #f9f9f9;
-  width: 150px;
-  height: 80px;
-  padding: 50px;
+  width: 200px;
+  height: 130px;
+  padding: 25px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px #b1b1b1,
               -2px -2px 5px #ffffff;
@@ -219,14 +262,21 @@ body {
   margin-right: auto;
 }
 
+.feature-tax p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 700;
+}
+
 .feature-contracts {
   float: left;
   margin-top: 40px;
   margin-left: 50px;
   background: #f9f9f9;
-  width: 150px;
-  height: 80px;
-  padding: 50px;
+  width: 200px;
+  height: 130px;
+  padding: 25px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px #b1b1b1,
               -2px -2px 5px #ffffff;
@@ -236,4 +286,11 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.feature-contracts p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 700;
 }
