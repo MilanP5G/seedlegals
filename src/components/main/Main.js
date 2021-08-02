@@ -6,9 +6,9 @@ const Main = () => {
 
   return (
     <div className='origin-box'>
-      <img alt='shapes' src={shapes} />
       <div className='origin-text'>
-        <h1>Start, raise and grow faster with SeedLegals</h1>
+        <img alt='shapes' src={shapes} />
+        <h1> <span>Start</span>, <span>raise</span> and <span>grow</span> faster with SeedLegals</h1>
       </div>
     </div>
   )
