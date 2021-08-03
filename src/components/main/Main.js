@@ -78,14 +78,17 @@ const Main = () => {
         <div className='stats-companies'>
           <img alt='Companies' src={companies} />
           <h1>25,000+</h1>
+          <p>Companies on SeedLegals</p>
         </div>
         <div className='stats-number-one'>
           <img alt="UK's #1" src={numberOne} />
           <h1>UK's #1</h1>
+          <p>for funding rounds, cap tables & share option schemes</p>
         </div>
         <div className='stats-raised'>
           <img alt='Raised' src={raised} />
           <h1>£500M</h1>
+          <p>Raised on SeedLegals</p>
         </div>
       </div>
     </div>
