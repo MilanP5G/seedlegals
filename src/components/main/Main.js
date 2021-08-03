@@ -11,6 +11,9 @@ import compliance from '../../assets/seis-compliance.png';
 import shapeDots from '../../assets/shape-dots.png';
 import shapeC from '../../assets/shape-c.png';
 import shapeTick from '../../assets/shape-tick.png';
+import companies from '../../assets/companies-use-1.png';
+import numberOne from '../../assets/no1.png';
+import raised from '../../assets/investment-closed.png';
 import '../../styling/main.css';
 
 const Main = () => {
@@ -73,10 +76,13 @@ const Main = () => {
           <img alt='Shapes' src={shapeC} />
         </div>
         <div className='stats-companies'>
+          <img alt='Companies' src={companies} />
         </div>
         <div className='stats-number-one'>
+          <img alt="UK's #1" src={numberOne} />
         </div>
         <div className='stats-raised'>
+          <img alt='Raised' src={raised} />
         </div>
       </div>
     </div>
