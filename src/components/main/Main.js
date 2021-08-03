@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from "aos";
 import shapes from '../../assets/intro-shapes.png';
 import seis from '../../assets/apply-for-seis.png';
 import raise from '../../assets/raise-before.png';
@@ -15,19 +16,24 @@ import companies from '../../assets/companies-use-1.png';
 import numberOne from '../../assets/no1.png';
 import raised from '../../assets/investment-closed.png';
 import '../../styling/main.css';
+import "aos/dist/aos.css"
 
 const Main = () => {
+
+  useEffect(() => {
+    Aos.init()
+  }, [])
 
   return (
     <div className='origin-box'>
       <div className='origin-text'>
         <img alt='shapes' src={shapes} />
-        <h1> <span>Start</span>, <span>raise</span> and <span>grow</span> faster with SeedLegals</h1>
-        <p>The legals for growing your company. <b>Sorted.</b></p>
-        <button className="origin-start" type="submit">
+        <h1 data-aos='fade-up' data-aos-offset='50' data-aos-easing='ease-in' data-aos-duration='500'> <span>Start</span>, <span>raise</span> and <span>grow</span> faster with SeedLegals</h1>
+        <p data-aos='fade-up' data-aos-offset='50' data-aos-easing='ease-in' data-aos-duration='600'>The legals for growing your company. <b>Sorted.</b></p>
+        <button className="origin-start" type="submit" data-aos='fade-up' data-aos-offset='100' data-aos-easing='ease-in-out-back' data-aos-duration='1000'>
           Start Free
         </button>
-        <button className="origin-talk" type="submit">
+        <button className="origin-talk" type="submit" data-aos='fade-up' data-aos-offset='100' data-aos-easing='ease-in-out-back' data-aos-duration='1100'>
           Talk to an expert
         </button>
       </div>
@@ -76,17 +82,17 @@ const Main = () => {
           <img alt='Shapes' src={shapeC} />
         </div>
         <div className='stats-companies'>
-          <img alt='Companies' src={companies} />
+          <img alt='Companies' src={companies} data-aos='fade-right' data-aos-duration='1000'/>
           <h1>25,000+</h1>
           <p>Companies on SeedLegals</p>
         </div>
         <div className='stats-number-one'>
-          <img alt="UK's #1" src={numberOne} />
+          <img alt="UK's #1" src={numberOne} data-aos='fade-down' data-aos-duration='1000'/>
           <h1>UK's #1</h1>
           <p>for funding rounds, cap tables & share option schemes</p>
         </div>
         <div className='stats-raised'>
-          <img alt='Raised' src={raised} />
+          <img alt='Raised' src={raised} data-aos='fade-left' data-aos-duration='1000'/>
           <h1>£500M</h1>
           <p>Raised on SeedLegals</p>
         </div>
