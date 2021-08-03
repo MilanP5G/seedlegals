@@ -343,20 +343,6 @@ body {
               -2px -2px 5px #ffffff;
 }
 
-.stats-companies img {
-  display: block;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80px;
-}
-
-.stats-companies h1 {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
 .stats-number-one {
   position: relative;
   float: left;
@@ -369,20 +355,6 @@ body {
   border-radius: 10px;
   box-shadow: 2px 2px 5px #b1b1b1,
               -2px -2px 5px #ffffff;
-}
-
-.stats-number-one img {
-  display: block;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80px;
-}
-
-.stats-number-one h1 {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
 }
 
 .stats-raised {
@@ -399,7 +371,7 @@ body {
               -2px -2px 5px #ffffff;
 }
 
-.stats-raised img {
+.stats-companies img, .stats-number-one img, .stats-raised img {
   display: block;
   margin-top: 20px;
   margin-left: auto;
@@ -407,7 +379,13 @@ body {
   width: 80px;
 }
 
-.stats-raised h1 {
+.stats-companies, .stats-number-one, .stats-raised h1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.stats-companies, .stats-number-one, .stats-raised p {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
