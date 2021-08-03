@@ -301,3 +301,30 @@ body {
   text-align: center;
   font-weight: 700;
 }
+
+.origin-stats {
+  width: 100%;
+  margin-top: 150px;
+  height: 500px;
+  background: linear-gradient(to right, #eaeaea, #f9f9f9, #f9f9f9, #eaeaea);
+}
+
+.stats-shape-one img {
+  float: left;
+  width: 200px;
+  margin: 40px;
+  margin-left: 100px;
+  filter: brightness(95%);
+}
+
+.stats-shape-two img {
+  float: left;
+  width: 150px;
+  margin-left: 300px;
+}
+.stats-shape-three img {
+  float: right;
+  width: 150px;
+  margin-top: 250px;
+  margin-right: 100px;
+}

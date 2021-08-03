@@ -8,6 +8,9 @@ import share from '../../assets/share-option-scheme.png';
 import team from '../../assets/team-agreement.png';
 import table from '../../assets/cap-table.png';
 import compliance from '../../assets/seis-compliance.png';
+import shapeDots from '../../assets/shape-dots.png';
+import shapeC from '../../assets/shape-c.png';
+import shapeTick from '../../assets/shape-tick.png';
 import '../../styling/main.css';
 
 const Main = () => {
@@ -57,6 +60,17 @@ const Main = () => {
         <div className='feature-contracts'>
           <img alt="team" src={team} />
           <p>Create contracts</p>
+        </div>
+      </div>
+      <div className='origin-stats'>
+        <div className='stats-shape-one'>
+          <img alt='Shapes' src={shapeDots} />
+        </div>
+        <div className='stats-shape-two'>
+          <img alt='Shapes' src={shapeTick} />
+        </div>
+        <div className='stats-shape-three'>
+          <img alt='Shapes' src={shapeC} />
         </div>
       </div>
     </div>
