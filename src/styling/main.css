@@ -342,3 +342,17 @@ body {
   box-shadow: 2px 2px 5px #b1b1b1,
               -2px -2px 5px #ffffff;
 }
+
+.stats-number-one {
+  position: relative;
+  float: left;
+  bottom: 200px;
+  left: 200px;
+  backdrop-filter: blur(20px);
+  width: 300px;
+  height: 250px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #b1b1b1,
+              -2px -2px 5px #ffffff;
+}
