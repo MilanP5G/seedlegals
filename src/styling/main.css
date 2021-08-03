@@ -343,6 +343,14 @@ body {
               -2px -2px 5px #ffffff;
 }
 
+.stats-companies img {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
 .stats-number-one {
   position: relative;
   float: left;
@@ -357,6 +365,14 @@ body {
               -2px -2px 5px #ffffff;
 }
 
+.stats-number-one img {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
 .stats-raised {
   position: relative;
   float: left;
@@ -369,4 +385,12 @@ body {
   border-radius: 10px;
   box-shadow: 2px 2px 5px #b1b1b1,
               -2px -2px 5px #ffffff;
+}
+
+.stats-raised img {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
 }
