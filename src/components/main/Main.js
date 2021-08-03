@@ -72,6 +72,12 @@ const Main = () => {
         <div className='stats-shape-three'>
           <img alt='Shapes' src={shapeC} />
         </div>
+        <div className='stats-companies'>
+        </div>
+        <div className='stats-number-one'>
+        </div>
+        <div className='stats-raised'>
+        </div>
       </div>
     </div>
   )
