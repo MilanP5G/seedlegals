@@ -77,12 +77,15 @@ const Main = () => {
         </div>
         <div className='stats-companies'>
           <img alt='Companies' src={companies} />
+          <h1>25,000+</h1>
         </div>
         <div className='stats-number-one'>
           <img alt="UK's #1" src={numberOne} />
+          <h1>UK's #1</h1>
         </div>
         <div className='stats-raised'>
           <img alt='Raised' src={raised} />
+          <h1>£500M</h1>
         </div>
       </div>
     </div>

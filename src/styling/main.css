@@ -348,7 +348,13 @@ body {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 100px;
+  width: 80px;
+}
+
+.stats-companies h1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .stats-number-one {
@@ -370,7 +376,13 @@ body {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 100px;
+  width: 80px;
+}
+
+.stats-number-one h1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .stats-raised {
@@ -392,5 +404,11 @@ body {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 100px;
+  width: 80px;
+}
+
+.stats-raised h1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
