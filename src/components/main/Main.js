@@ -82,17 +82,17 @@ const Main = () => {
           <img alt='Shapes' src={shapeC} />
         </div>
         <div className='stats-companies'>
-          <img alt='Companies' src={companies} data-aos='fade-right' data-aos-duration='1000'/>
+          <img alt='Companies' src={companies} data-aos='fade-right' data-aos-duration='1000' data-aos-anchor-placement='bottom-center'/>
           <h1>25,000+</h1>
           <p>Companies on SeedLegals</p>
         </div>
         <div className='stats-number-one'>
-          <img alt="UK's #1" src={numberOne} data-aos='fade-down' data-aos-duration='1000'/>
+          <img alt="UK's #1" src={numberOne} data-aos='fade-down' data-aos-duration='1000' data-aos-anchor-placement='bottom-center'/>
           <h1>UK's #1</h1>
           <p>for funding rounds, cap tables & share option schemes</p>
         </div>
         <div className='stats-raised'>
-          <img alt='Raised' src={raised} data-aos='fade-left' data-aos-duration='1000'/>
+          <img alt='Raised' src={raised} data-aos='fade-left' data-aos-duration='1000' data-aos-anchor-placement='bottom-center'/>
           <h1>£500M</h1>
           <p>Raised on SeedLegals</p>
         </div>
