@@ -1,5 +1,4 @@
 .nav-bar {
-  display: inline-block;
   position: fixed;
   border: none;
   backdrop-filter: blur(20px);

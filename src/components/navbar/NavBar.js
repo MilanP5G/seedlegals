@@ -7,7 +7,7 @@ import '../../styling/navbar.css';
 
 const NavBar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
-  const [visible, setVisible] = useState(0);
+  const [visible, setVisible] = useState(90);
 
   const navbarStyles = {
     transition: 'top 0.6s'
@@ -25,7 +25,7 @@ const NavBar = () => {
   }, [prevScrollPos, visible, handleScroll]);
 
   return (
-    <div className='nav-bar' style={{ ...navbarStyles, top: visible ? '0' : '-100px' }}>
+    <div className='nav-bar' style={{ ...navbarStyles, top: visible ? '0' : '-90px' }}>
       <div className='nav-logo'>
         <NavLink className='nav-seedlegal-logo' to='/'>
           <img alt='Seed Legals' src={navLogo} />
