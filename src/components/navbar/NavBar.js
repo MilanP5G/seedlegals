@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import { debounce } from '../../utilities/helpers'
 import navLogo from '../../assets/seedlegals-logo.png';
 import phone from '../../assets/phoneo.png';
 import '../../styling/navbar.css';
 
 const NavBar = () => {
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(0);
 
   return (
     <div className='nav-bar'>
