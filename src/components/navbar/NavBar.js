@@ -9,6 +9,16 @@ const NavBar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(0);
 
+  const navbarStyles = {
+    transition: 'top 0.6s'
+  }
+
+  const handleScroll = debounce(() => {
+    const currentScrollPos = window.pageYOffset;
+    setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) || currentScrollPos < 10);
+    setPrevScrollPos(currentScrollPos);
+  }, 100)
+
   return (
     <div className='nav-bar'>
       <div className='nav-logo'>
