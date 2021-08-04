@@ -19,8 +19,13 @@ const NavBar = () => {
     setPrevScrollPos(currentScrollPos);
   }, 100)
 
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [prevScrollPos, visible, handleScroll]);
+
   return (
-    <div className='nav-bar'>
+    <div className='nav-bar' style={{ ...navbarStyles, top: visible ? '0' : '-100px' }}>
       <div className='nav-logo'>
         <NavLink className='nav-seedlegal-logo' to='/'>
           <img alt='Seed Legals' src={navLogo} />
